@@ -1,0 +1,39 @@
+{
+  "type": "consumeGenerator",
+  "name": "Coal generator",
+  "description": "Generates energy from lead, suitable for excess coal.",
+  "size": 2,
+  "drawer": {
+   "type": "DrawMulti",
+   "drawers": [
+    {
+     "type": "DrawDefault" 
+    },
+    {
+     "type": "DrawGlowRegion",
+     "suffix": "-top",
+     "color": "#ff5208"
+    }
+   ]
+  },
+  "itemCapacity": 15,
+  "health": 400,
+  "hasPower": true,
+  "requirements": [
+   {"item": "copper", "amount": 45},
+   {"item": "lead", "amount": 50},
+   {"item": "titanium", "amount": 60}
+  ],
+  "hasItems": true,
+  "itemDuration": 15,
+  "powerProduction": 20,
+  "consumes": {
+   "items": {
+    "items": [
+     {"item": "coal", "amount": 1}
+    ]
+   }
+  },
+  "category": "power",
+  "research": "steam-generator"
+}

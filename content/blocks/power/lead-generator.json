@@ -1,0 +1,38 @@
+{
+  "type": "consumeGenerator",
+  "name": "Lead generator",
+  "description": "Generates energy from lead, suitable for excess lead.",
+  "size": 1,
+  "drawer": {
+   "type": "DrawMulti",
+   "drawers": [
+    {
+     "type": "DrawDefault" 
+    },
+    {
+     "type": "DrawGlowRegion",
+     "suffix": "-top",
+     "color": "a864f5"
+    }
+   ]
+  },
+  "itemCapacity": 15,
+  "health": 250,
+  "hasPower": true,
+  "requirements": [
+   {"item": "copper", "amount": 45},
+   {"item": "lead", "amount": 50}
+  ],
+  "hasItems": true,
+  "itemDuration": 10,
+  "powerProduction": 10,
+  "consumes": {
+   "items": {
+    "items": [
+     {"item": "lead", "amount": 1}
+    ]
+   }
+  },
+  "category": "power",
+  "research": "copper-generator"
+}

@@ -1,0 +1,31 @@
+{
+	"name": "Wind Tower",
+	"description": "Generates energy through wind, durable, but requires phase fabric, solar panels are installed on the paws, so the energy also comes from the sun.",
+	"type": "SolarGenerator",
+	"health": 700,
+	"size": 2,
+	"drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+     {
+      "type": "DrawDefault" 
+     },
+     {
+      "type": "DrawRegion",
+      "suffix": "-turbine",
+      "rotateSpeed": 5
+     }
+    ]
+	},
+	"hasPower": true,
+	"powerProduction": 15,
+	"requirements": [
+		{"item": "copper", "amount": 300},
+		{"item": "lead", "amount": 400},
+		{"item": "titanium", "amount":250},
+		{"item": "phase-fabric", "amount":180}
+		
+	],
+	"category": "power",
+	"research": "coal-generator"
+}

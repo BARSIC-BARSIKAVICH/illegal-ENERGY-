@@ -1,0 +1,17 @@
+{
+  "type": "PowerNode",
+  "name": "power node big",
+  "description": "A huge node that can transmit energy over long distances! And store more nodes.",
+  "size": 3,
+  "health": 350,
+  "laserRange": 35,
+  "maxNodes": 25,
+  "requirements": [
+   {"item": "silicon", "amount": 25},
+   {"item": "lead", "amount": 45},
+   {"item": "phase-fabric", "amount": 30},
+   {"item": "copper", "amount": 10}
+  ],
+  "category": "power",
+  "research": "power-node-large"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "consumeGenerator",
+  "name": "Flow generator",
+  "description": "Pours liquid onto a ramp leading down, creating a flow around the center and a flow passing under the ramp for the exiting liquid. The liquid spins the blades around the center, the blades transfer energy to the fluid. No blades visible from outside.",
+  "size": 2,
+  "liquidCapacity": 15,
+  "health": 250,
+  "hasPower": true,
+  "requirements": [
+   {"item": "copper", "amount": 120},
+   {"item": "lead", "amount": 35},
+   {"item": "silicon", "amount": 80},
+   {"item": "titanium", "amount": 180}
+  ],
+  "hasItems": false,
+  "outputLiquid": {"liquid": "water", "amount": 0.09},
+  "hasLiquids": true,
+  "liquidDuration": 1,
+  "powerProduction": 5,
+  "consumes": {
+   "liquids": {
+    "liquids": [
+     {"liquid": "water", "amount": 0.1}
+    ]
+   }
+  },
+  "category": "power",
+  "research": "rtg-generator"
+}

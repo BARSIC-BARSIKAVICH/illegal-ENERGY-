@@ -1,0 +1,48 @@
+{
+  "type": "consumeGenerator",
+  "name": "Blast compound generator",
+  "description": "Generates energy from blast compound by exploding and then collecting explosive energy. Does not work without cooling, that is, without cryogenic liquid.",
+  "size": 3,
+  "drawer": {
+   "type": "DrawMulti",
+   "drawers": [
+    {
+     "type": "DrawDefault" 
+    },
+    {
+     "type": "DrawGlowRegion",
+     "suffix": "-top",
+     "color": "#ff4603"
+    }
+   ]
+  },
+  "itemCapacity": 15,
+  "liquidCapacity": 15,
+  "health": 750,
+  "hasPower": true,
+  "requirements": [
+   {"item": "copper", "amount": 640},
+   {"item": "lead", "amount": 650},
+   {"item": "phase-fabric", "amount": 450},
+   {"item": "silicon", "amount": 680}
+  ],
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemDuration": 180,
+  "liquidDuration": 350,
+  "powerProduction": 25,
+  "consumes": {
+   "items": {
+    "items": [
+     {"item": "blast-compound", "amount": 5}
+    ]
+   },
+   "liquids": {
+    "liquids": [
+     {"liquid": "cryofluid", "amount": 1}
+    ]
+   }
+  },
+  "category": "power",
+  "research": "differential-generator"
+}

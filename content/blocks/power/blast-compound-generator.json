@@ -1,0 +1,48 @@
+{
+  "type": "consumeGenerator",
+  "name": "Blast compound generator minimal",
+  "description": "The same as a regular one, but uses a minimal amount of resources and liquids. Stronger than normal.",
+  "size": 3,
+  "drawer": {
+   "type": "DrawMulti",
+   "drawers": [
+    {
+     "type": "DrawDefault" 
+    },
+    {
+     "type": "DrawGlowRegion",
+     "suffix": "-top",
+     "color": "#ff4603"
+    }
+   ]
+  },
+  "itemCapacity": 10,
+  "liquidCapacity": 10,
+  "health": 980,
+  "hasPower": true,
+  "requirements": [
+   {"item": "copper", "amount": 690},
+   {"item": "lead", "amount": 700},
+   {"item": "phase-fabric", "amount": 560},
+   {"item": "silicon", "amount": 700}
+  ],
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemDuration": 220,
+  "liquidDuration": 500,
+  "powerProduction": 23,
+  "consumes": {
+   "items": {
+    "items": [
+     {"item": "blast-compound", "amount": 2}
+    ]
+   },
+   "liquids": {
+    "liquids": [
+     {"liquid": "cryofluid", "amount": 0.2}
+    ]
+   }
+  },
+  "category": "power",
+  "research": "blast-compound-generator"
+}
