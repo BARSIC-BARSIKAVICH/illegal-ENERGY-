@@ -1,6 +1,6 @@
 {
   "type": "consumeGenerator",
-  "name": "Blast compound generator",
+  "name": "Blast compound generator minimal",
   "description": "Generates energy from blast compound by exploding and then collecting explosive energy. Does not work without cooling, that is, without cryogenic liquid.",
   "size": 3,
   "drawer": {
@@ -44,5 +44,5 @@
    }
   },
   "category": "power",
-  "research": "differential-generator"
+  "research": "blast-compound-generator"
 }
