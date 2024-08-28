@@ -1,0 +1,9 @@
+{
+   "name": "small-addition-energy",
+   "displayName": "ENERGY",
+   "description": "Small addition to electrical blocks.",
+   "subtitle": "ENERGY NEVER ENDS",
+   "author": "Barsic",
+   "version": 1.0,
+   "minGameVersion": 136
+}
