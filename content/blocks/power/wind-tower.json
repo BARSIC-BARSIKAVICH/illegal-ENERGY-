@@ -18,7 +18,7 @@
     ]
 	},
 	"hasPower": true,
-	"powerProduction": 15,
+	"powerProduction": 6.55,
 	"requirements": [
 		{"item": "copper", "amount": 300},
 		{"item": "lead", "amount": 400},
