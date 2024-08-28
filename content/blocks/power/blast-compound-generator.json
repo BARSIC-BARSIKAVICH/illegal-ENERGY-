@@ -1,6 +1,6 @@
 {
   "type": "consumeGenerator",
-  "name": "Blast compound generator minimal",
+  "name": "Blast compound generator",
   "description": "The same as a regular one, but uses a minimal amount of resources and liquids. Stronger than normal.",
   "size": 3,
   "drawer": {
@@ -44,5 +44,5 @@
    }
   },
   "category": "power",
-  "research": "blast-compound-generator"
+  "research": "deffirencial-generator"
 }
